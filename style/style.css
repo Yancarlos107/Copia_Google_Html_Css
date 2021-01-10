@@ -56,3 +56,65 @@ main .main-logo {
 main .main-logo img{
     width: 272px;
 }
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input input{
+    width: 450px;
+    height: 44px;
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+}
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 1px #20212447;
+    cursor: text;
+}
+main .main-input .search-icon{
+    background-image: url('https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: .45;
+    width: 1.6rem;
+    height: 1.6rem;
+}
+main .main-input .micro-icon{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.6rem;
+    height: 1.6rem;
+    cursor: pointer;
+}
+main .main-buttons{
+    width: 530px;
+    margin: 0 auto;
+}
+main .main-buttons button{
+    height: 36px;
+    margin: 0 10px;
+    background-color: #dfe1e5;
+    border: 0;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 5px;
+    cursor:pointer;
+    padding: 0 15px;
+}
+main .main-buttons button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #000001;
+    color: #222;
+}
